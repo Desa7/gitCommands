@@ -20,5 +20,11 @@ git commit -m "renaming example"   |file is renamed
 git rm (name)                      |remove a file **commit to complete the deletion
 git add -u                         |add changes to stage area
 git add -A                         |show the action made (edition/deletions) ** commit to save changes
-
+.gitignore			   |create .gitignore file with all the log files, add and then commit the changes
+git diff (name) (name)             |show differences between two files
+git branch                         |show branches
+git checkout -b (name)             |create a new branch and switch to the new branch
+git checkout master                |go back to master
+git merge (branch)                 |apply commits from branch to master
+git branch -d (name) 		   |delete branch
 
