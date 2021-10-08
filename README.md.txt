@@ -10,3 +10,6 @@ git ls-file                   |tracking files
 rm (name)                     |remove file
 git commit -a                 |add modified files to the stage area
 git commit -am ""             |add modified files to the stage area and a message
+git reset HEAD (name)         |go back from staged area to work directory
+git checkout -- (name)        |remove all changes from a commited file
+
