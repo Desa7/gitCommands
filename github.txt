@@ -5,6 +5,9 @@ git push origin master              |to push commits---(origin:the remote repo) 
 git clone (sshLink)                 |to clone a project
 git clone (sshLink) (folderName)    |to clone a project and save it in a new folder
 rm -rf (projectName)                |to delete a project
+git fetch                           |to check and bring all changes from the remote repo
+git pull                            |to apply all changes in the local repo
+git push                            |to send all changes to the remote repo
 
 
 //creating a public key 
