@@ -5,6 +5,7 @@ git push -u origin branch           |to push commits (creates the new branch in 
 git push origin master              |to push commits---(origin:the remote repo) (master:the brach)
 git push origin (tagName)           |to push a tag
 git push --tags                     |to push all tags
+git push origin :(tagName)          |to delete a tag in the remote repo
 git clone (sshLink)                 |to clone a project
 git clone (sshLink) (folderName)    |to clone a project and save it in a new folder
 rm -rf (projectName)                |to delete a project
@@ -16,6 +17,7 @@ git remote set-url origin (sshLink) |to update the repo when the project name wa
 git remote show origin              |to show info about the remote repo
 git show (shaCommit)                |to see a remote commit locally
 git branch -a                       |to see local and remote branches
+git tag -d (tagName)                |to delete a tag in the local depo
 
 
 //creating a public key 
