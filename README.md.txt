@@ -27,5 +27,14 @@ git checkout -b (name)             |create a new branch and switch to the new br
 git checkout master                |go back to master
 git merge (branch)                 |apply commits from branch to master
 git branch -d (name) 		   |delete branch
-git mergetool                      |To fix merge troubles 
+git mergetool                      |to fix merge troubles 
+git tag -a (name) -m "message"     |to create a tag
+git tag --list                     |to list tags
+git show (tagName)                 |to show tag info
+git stash save "message"           |to save last changes but not commit them
+git stash list                     |to list the shash
+git stash show stash@}\{0\}        |show more info about the stash 0
+git stash apply                    |to modify the stash
+git stash drop                     |to drop stash
+git stash pop                      |to modify and drop the stash
 
