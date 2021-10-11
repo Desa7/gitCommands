@@ -1,0 +1,15 @@
+git remote -v                       |to check if there is a linked remote repository
+git remote add origin (link)        |to add a remote repository
+git push -u origin master --tags    |to push commits
+
+
+//creating a public key 
+mkdir .ssh                          |to create the ssh folder
+cd .shh/                            |to enter to the shh folder
+ssh-keygen -t rsa -C "email"        |to generate the keys
+ls -al                              |to see all hidden files
+ls ~/.ssh/*.pub                     |to see the public key if it is still hidden 
+vim (dirGivenPreviously)            |to access to the public key    ***(:x!) to exit 
+ssh -T git@github.com               |to verify if it is already connected
+
+
