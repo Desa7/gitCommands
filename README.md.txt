@@ -37,4 +37,8 @@ git stash show stash@}\{0\}        |show more info about the stash 0
 git stash apply                    |to modify the stash
 git stash drop                     |to drop stash
 git stash pop                      |to modify and drop the stash
-
+git reset --soft (idCommit)        |to delete the commit and keep it in the stage area
+git reset --hard (idCommit)        |to delete the commit from the stage area at once
+git revert --no-commit HEAD        |revert the last commit and put it in the stage area
+git revert --no-commit HEAD~1      |revert the previous commit of the last one and put it in the stage area
+git revert HEAD                    |revert the last commit and commit the change at once
