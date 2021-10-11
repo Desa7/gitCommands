@@ -27,4 +27,5 @@ git checkout -b (name)             |create a new branch and switch to the new br
 git checkout master                |go back to master
 git merge (branch)                 |apply commits from branch to master
 git branch -d (name) 		   |delete branch
+git mergetool                      |To fix merge troubles 
 
