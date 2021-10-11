@@ -8,6 +8,8 @@ rm -rf (projectName)                |to delete a project
 git fetch                           |to check and bring all changes from the remote repo
 git pull                            |to apply all changes in the local repo
 git push                            |to send all changes to the remote repo
+git remote set-url origin (sshLink) |to update the repo when the project name was change
+git remote show origin              |to show info about the remote repo
 
 
 //creating a public key 
