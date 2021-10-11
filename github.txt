@@ -3,6 +3,8 @@ git remote add origin (link)        |to add a remote repository
 git push -u origin master --tags    |to push commits the first time (creates the master branch)
 git push -u origin branch           |to push commits (creates the new branch in the remote repo)
 git push origin master              |to push commits---(origin:the remote repo) (master:the brach)
+git push origin (tagName)           |to push a tag
+git push --tags                     |to push all tags
 git clone (sshLink)                 |to clone a project
 git clone (sshLink) (folderName)    |to clone a project and save it in a new folder
 rm -rf (projectName)                |to delete a project
