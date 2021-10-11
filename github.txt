@@ -14,6 +14,7 @@ git remote set-url origin (sshLink) |to update the repo when the project name wa
 git remote show origin              |to show info about the remote repo
 git show (shaCommit)                |to see a remote commit locally
 git branch -a                       |to see local and remote branches
+git push origin :(branchName)       |to delete a remote branch from the local repo
 
 
 //creating a public key 
