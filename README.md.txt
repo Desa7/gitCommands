@@ -8,8 +8,8 @@ git log                            |all commits
 git show                           |last commit and a diff with all the changes
 git ls-file                        |tracking files
 rm (name)                          |remove file
-git commit -a                      |add modified files to the stage area
-git commit -am ""                  |add modified files to the stage area and a message
+git commit -a                      |add modified files to the repo
+git commit -am ""                  |add modified files to the repo and a message
 git reset HEAD (name)              |go back from staged area to work directory
 git checkout -- (name)             |remove all changes from a commited file
 git log --graph --decorate --all   |show all commits graph representation
