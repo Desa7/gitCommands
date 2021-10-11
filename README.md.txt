@@ -43,4 +43,3 @@ git reset --hard (idCommit)        |to delete the commit from the stage area at 
 git revert --no-commit HEAD        |revert the last commit and put it in the stage area
 git revert --no-commit HEAD~1      |revert the previous commit of the last one and put it in the stage area
 git revert HEAD                    |revert the last commit and commit the change at once
-git log --all --since=date         |to show all commits since a specific date (--oneline)

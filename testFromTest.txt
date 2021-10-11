@@ -1,4 +1,5 @@
 hello ther, this is an update to test this project.
+<<<<<<< HEAD
 
 this is another test before rebase from github
 =======
@@ -6,3 +7,5 @@ this is another test before rebase from github
 changing this test from the local repo before rebase.
 >>>>>>> c2e5cb6 (Updating all files)
 >>>>>>> refs/remotes/origin/master
+=======
+>>>>>>> parent of c2e5cb6 (Updating all files)
