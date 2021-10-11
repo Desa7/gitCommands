@@ -22,7 +22,8 @@ git add -u                         |add changes to stage area
 git add -A                         |show the action made (edition/deletions) ** commit to save changes
 .gitignore			   |create .gitignore file with all the log files, add and then commit the changes
 git diff (name) (name)             |show differences between two files
-git branch                         |show branches
+git branch                         |show local branches
+git branch -a                      |show local and remote branches 
 git checkout -b (name)             |create a new branch and switch to the new branch
 git checkout master                |go back to master
 git merge (branch)                 |apply commits from branch to master
@@ -42,4 +43,3 @@ git reset --hard (idCommit)        |to delete the commit from the stage area at 
 git revert --no-commit HEAD        |revert the last commit and put it in the stage area
 git revert --no-commit HEAD~1      |revert the previous commit of the last one and put it in the stage area
 git revert HEAD                    |revert the last commit and commit the change at once
-

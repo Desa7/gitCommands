@@ -1,15 +1,19 @@
 git remote -v                       |to check if there is a linked remote repository
 git remote add origin (link)        |to add a remote repository
 git push -u origin master --tags    |to push commits the first time (creates the master branch)
+git push -u origin branch           |to push commits (creates the new branch in the remote repo)
 git push origin master              |to push commits---(origin:the remote repo) (master:the brach)
 git clone (sshLink)                 |to clone a project
 git clone (sshLink) (folderName)    |to clone a project and save it in a new folder
 rm -rf (projectName)                |to delete a project
 git fetch                           |to check and bring all changes from the remote repo
+git fetch -p                        |look for any dead branches and remove those references
 git pull                            |to apply all changes in the local repo
 git push                            |to send all changes to the remote repo
 git remote set-url origin (sshLink) |to update the repo when the project name was change
 git remote show origin              |to show info about the remote repo
+git show (shaCommit)                |to see a remote commit locally
+git branch -a                       |to see local and remote branches
 
 
 //creating a public key 
