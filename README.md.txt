@@ -29,7 +29,8 @@ git checkout master                |go back to master
 git merge (branch)                 |apply commits from branch to master
 git branch -d (name) 		   |delete branch
 git mergetool                      |to fix merge troubles 
-git tag -a (name) -m "message"     |to create a tag
+git tag -a (tagName) -m "message"  |to create a tag
+git tag (tagName) (refBranch)      |to create a tag to a branch
 git tag --list                     |to list tags
 git show (tagName)                 |to show tag info
 git stash save "message"           |to save last changes but not commit them
