@@ -1,6 +1,10 @@
 git remote -v                       |to check if there is a linked remote repository
 git remote add origin (link)        |to add a remote repository
-git push -u origin master --tags    |to push commits
+git push -u origin master --tags    |to push commits the first time (creates the master branch)
+git push origin master              |to push commits---(origin:the remote repo) (master:the brach)
+git clone (sshLink)                 |to clone a project
+git clone (sshLink) (folderName)    |to clone a project and save it in a new folder
+rm -rf (projectName)                |to delete a project
 
 
 //creating a public key 
