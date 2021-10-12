@@ -22,6 +22,7 @@ git reflog                          |to show where the rebase started
 git rebase --abort                  |to abort the rebase operation and return to the previous state
 git remote add (newName) (linkssh)  |to add the original repo (besides te fork repo) 
 git pull (originRepo) branch        |to bring changes from the original repo to the branch we want and then push to our fork repo
+git checkout -b (name) origin/name  |to create a new local branch to track a remote branch 
 
 
 //creating a public key 
