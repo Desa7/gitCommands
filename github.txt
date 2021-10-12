@@ -18,6 +18,8 @@ git remote show origin              |to show info about the remote repo
 git show (shaCommit)                |to see a remote commit locally
 git branch -a                       |to see local and remote branches
 git tag -d (tagName)                |to delete a tag in the local depo
+git reflog                          |to show where the rebase started
+git rebase --abort                  |to abort the rebase operation and return to the previous state
 
 
 //creating a public key 
