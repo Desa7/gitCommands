@@ -20,6 +20,8 @@ git branch -a                       |to see local and remote branches
 git tag -d (tagName)                |to delete a tag in the local depo
 git reflog                          |to show where the rebase started
 git rebase --abort                  |to abort the rebase operation and return to the previous state
+git remote add (newName) (linkssh)  |to add the original repo (besides te fork repo) 
+git pull (originRepo) branch        |to bring changes from the original repo to the branch we want and then push to our fork repo
 
 
 //creating a public key 
