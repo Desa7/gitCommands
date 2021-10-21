@@ -45,3 +45,4 @@ git reset --hard (idCommit)                 |to delete the commit from the stage
 git revert --no-commit HEAD                 |revert the last commit and put it in the stage area
 git revert --no-commit HEAD~1               |revert the previous commit of the last one and put it in the stage area
 git revert HEAD                             |revert the last commit and commit the change at once
+git remote remove origin                    |remove remote repo
